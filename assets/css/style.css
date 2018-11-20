@@ -1,0 +1,70 @@
+body {
+    min-height: 100vh;
+    background-image: url('../images/bg.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+@media only screen and (min-width: 600px) {
+    .displayBtns {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        padding-top: 10%;
+    }
+    .main {
+        -webkit-column-count: 5;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 5;
+        /* Firefox */
+        column-count: 5;
+        column-fill: balance;
+    }
+}
+
+.main div {
+    display: inline-block;
+}
+
+.logo {
+    font-size: 4em;
+    margin: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    color: darkkhaki;
+    background-color: cadetblue;
+    border-bottom: beige;
+    border-bottom-width: 10px;
+    
+}
+
+.card {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8em;
+    background-color: rgba(116, 116, 116, 0.167);
+}
+
+.copyToast {
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tip {
+    font-style: italic;
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+}
