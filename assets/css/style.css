@@ -30,6 +30,10 @@ body {
     font-size: 25px;
 }
 
+input, select, textarea{
+    color: #ff0000;
+}
+
 .card {
     width: 100%;
     padding: 0 !important;
