@@ -81,7 +81,7 @@ $(document).on('dblclick', '.gifImg', function () {
 
 // fetches json from the giphy API
 function runAPI() {
-    var urlAPI = "http://api.giphy.com/v1/gifs/search?q=" + searchParam + "&api_key=" + apiKey + "&limit=" + limit;
+    var urlAPI = "https://api.giphy.com/v1/gifs/search?q=" + searchParam + "&api_key=" + apiKey + "&limit=" + limit;
     $.ajax({
         url: urlAPI,
         type: "GET",
