@@ -2,7 +2,7 @@ var apiKey = "dc6zaTOxFJmzC"; // giphy api key
 var limit = 10; // the number of returned results
 var searchParam; // holds the query parameter
 
-var topics = ["Sonic", "Tails", "Knuckles", "Amy", "Shadow", "Eggman"]; // button array
+var topics = ["Sonic the Hedgehog", "Miles 'Tails'", "Knuckles the Echidna", "Amy Rose", "Shadow the Hedgehog", "Eggman"]; // button array
 
 // creates the buttons from the topics array and appends them to the page
 function populateButtons() {
@@ -79,7 +79,7 @@ $(document).on('dblclick', '.gifImg', function () {
 });
 
 
-// fetches json from the giphy API
+// grabs json from the giphy API
 function runAPI() {
     var urlAPI = "https://api.giphy.com/v1/gifs/search?q=" + searchParam + "&api_key=" + apiKey + "&limit=" + limit;
     $.ajax({
