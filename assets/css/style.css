@@ -43,6 +43,11 @@ input, select, textarea{
     font-size: 16px !important;
 }
 
+.arrBtn {
+    width: 100%;
+    padding: 0;
+}
+
 .footer {
     font-family: 'Courier New', Courier, monospace;
     position: fixed;
